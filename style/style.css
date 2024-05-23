@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9gUL5_MHi1c1deBY1ZgDnUFfik6i7jR2OS-UvTF83Hw&s);
+    display: flex;
+    margin-top: 300px;
+    margin-left: 200px;
+}
+
+.container {
+    display: inline-block;
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.container input[type="number"],
+.container button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.container button {
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background-color: #555;
+}
+
+#resultado {
+    font-size: 20px;
+    font-weight: bold;
+}
